@@ -1,0 +1,34 @@
+# 镜像包文件
+*.tar
+*.tar.gz
+release/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python/
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# 本地数据
+data/
+*.db
+*.log
+
+# 模型文件（太大，不上传）
+models/densenet121.pth
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
